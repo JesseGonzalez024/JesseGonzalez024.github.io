@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Embracing Tech pt1"
-date:       2019-11-12 09:34:51 +0000
+date:       2019-11-12 04:34:52 -0500
 permalink:  embracing_tech_pt1
 ---
 
