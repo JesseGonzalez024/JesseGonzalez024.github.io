@@ -1,12 +1,11 @@
 ---
 layout: post
-title:      "Embracing Tech pt1"
+title:      "Embracing Tech pt 2"
 date:       2019-11-12 04:34:52 -0500
 permalink:  embracing_tech_pt1
 ---
 
-
-I'm actually really bad with computers. Usually it's very easy to tell.
+ I'm actually really bad with computers. Usually it's very easy to tell.
 
 So why coding? 
 Why would someone who acknowledges their lack of computer savvy be interested in a field where technology is in abundance and in high demand? 
