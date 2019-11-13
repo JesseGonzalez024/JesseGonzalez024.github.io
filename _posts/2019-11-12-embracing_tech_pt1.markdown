@@ -5,6 +5,8 @@ date:       2019-11-12 04:34:52 -0500
 permalink:  embracing_tech_pt1
 ---
 
+ ![](https://images.app.goo.gl/GiFAGeVnQGWfA4oZ9http://)
+ 
  I'm actually really bad with computers. Usually it's very easy to tell.
 
 So why coding? 
