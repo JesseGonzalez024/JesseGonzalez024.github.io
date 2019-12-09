@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "Embracing Tech pt 2"
+title:      "Embracing Tech "
 date:       2019-11-12 04:34:52 -0500
 permalink:  embracing_tech_pt1
 ---
