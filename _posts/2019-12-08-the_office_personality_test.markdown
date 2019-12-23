@@ -1,19 +1,18 @@
 ---
 layout: post
 title:      "The office Personality Test"
-date:       2019-12-09 02:01:02 +0000
+date:       2019-12-08 21:01:03 -0500
 permalink:  the_office_personality_test
 ---
 
 
 Greetings & Salutations!
 
-This blog post is in correlation with my CLI Project. The program mirrors a personality test based on the popular tv show: The Office. No doubt, if you've seen the show, more than likely you have a favorite character. Mine happens to be Dwight, because... Battle Star Galatica.
+This blog post is in correlation with my CLI Project. The program mirrors a personality test based on the popular tv show: The Office. No doubt, if you've seen the show, more than likely you have a favorite character. Mine happens to be Dwight, because... Battle Star Galactica!
 
-The program presents the user with a series of questions, to which each has 4 answers. The program allows the user to select an answer from the multiple choice. After all questions are successfully answered, the program will return which charming personality do you resemble most.
-It's meant to both be simple and fun!
+The program presents the user with a series of questions, to which each has 4 answers. The program allows the user to select an answer from the multiple choice and after all questions are successfully answered, the program will return which charming personality do you resemble most. It's meant to both be simple and fun!
 
-#Langauges/ Skills/ Tools
+#Languages/ Skills/ Tools
 
 * Ruby 2.6.1
 * Nokogiri 
@@ -23,17 +22,22 @@ It's meant to both be simple and fun!
 * Visual Studio Code
 
 # Getting Started
-From the moment I heard the expectations for the project, I knew I wanted to do something worthwhile, that I could seemingly enjoy while working on it. Come to find out, the real thrills were when I found myself stuck, which happened quite often during the duration of the project. After finding a website with the 'charming' questions I was looking for I began to scrap. Being quite new to this form of treasure hunting, I was required to research additional information and reread previous lessons. Once the idea sinked in, and after much curiosity splurging through out the Developer Tool, I found the bits and pieces I was looking for. 
+From the moment I heard the expectations for the project, I knew I wanted to do something worthwhile, that I could seemingly enjoy while working on it. Come to find out, the real thrills would be problem solving through bugs. 
 
-Of course finding them and figuring their appropriate CSS Selector are two different things. This is where I really learned to use Binding.pry
-I've now learned to love. I now use it through out any programing, even if I already the data values. I do this simply to add an additional barrier against bugs. I've found that through this I can play with potential theories and past references.
+After finding a website with the quiz format I was looking for I began to scrap. Being quite new to this form of treasure hunting, I was required to research additional information and re-read previous lessons. Once the idea sinked in, and after much curiosity splurging through out the Developer Tool, I found the bits and pieces I was looking for. 
 
-My first instinct was to store the data I was scraping into Hashes. For a while it worked. But then of course the deeper I got into the project the harder it became to work with the Hashes. Prior to the project I had been a bit uneasy about OOP. This project completely forced me to break from the safety of the comfortable Hashes I was hiding underneath. Stroring data as Objects became joy. Although I would never say "I've mastered this subject", for I would never say that about anything, not because lack of knowledge but simply because it would close me to other possibilities outside of my mental realm I'd be creating, I do now feel at ease when asked to explain what the Objects are doing, what they represent, and how to maximize their usage. 
+Of course finding them and figuring their appropriate CSS Selector are two different things. This is where I truly learned to use Binding.pry
+
+Since then, I double check all of my return values for each line of code before moving on to the next line. I do this simply to add an additional barrier against bugs. I've found that through binding.pry I can also play with potential theories and past references, which in turn saves time.
+
+My first instinct was to store the data I was scraping into Hashes. For a while it worked. But the more layers of data I added the more difficult it made keeping track of said data. 
+
+Also, prior to the project I had been a bit uneasy about OOP. This project completely forced me to break from the safety of the comfortable Hashes I was hiding underneath. Storing data as Objects became joy. 
 
 # The Big One
-I faced a number hurdles and bugs to overcome during this project. But the biggest one I'd say had to do a very specific logic I needed to implement. At this point the test was working well, and the program would even return an answer. However if any entry was unrecognizable or "invalid" my program would easily break or simply not count the question towards the final end result. Given the nature of what the user would be expecting, I could not have this! This bug made my program fragile and easily receptive to errors. 
+I faced a number of hurdles and bugs to overcome during this project. The most challenging of them would be preventing invalid entries from the user. At this point the test was bare yet functioning. Yet the program would accept any entry even if it did not follow the rules given to the user. If any entry was unrecognizable or "invalid" my program would easily break or simply not count the question towards the final end result. Given the nature of what the user would be expecting, I could not have this! This bug made my program fragile and easily receptive to errors. 
 
-So the logic I wanted to implement was:
+So the logic & in pseudocode format I wanted to implement was the following:
 
 > Program prints question, program prints answers related to question. Program prompts user for input. Program determines if user's input is acceptable. If user input is not acceptable, program must return the incorrectly answered question and re-prompt the user to answer. Only after user input is valid and question answered can the following question be displayed.
 > 
@@ -42,7 +46,7 @@ As you can tell from my version of pseudocode, the program would require plenty 
 
 I researched, I asked, I did more research. After many different theories failing, after what felt like scourging the Internet for clues. I attempted to move on to different bugs the program was experiencing.
 
-Here is some of my earlier logic:
+Previous logic:
 
 ```
 question_counter = 0
@@ -70,9 +74,9 @@ question_counter = 0
         end	            end  
 ```
 
-It wasn't UNTIL I commenced the project required 30-min 'recorded' coding session that I came upon a different idea. The recorded session required me to talk out loud through my reasoning. After explaining my idea, intention and objective to myself, out-loud... It hit me. Previously the loops I had created were working against each other preventing the program from running the way I wanted it to. But after listening to myself, the very method keyword that would save my program was spoken out-loud. I researched the method to refresh my memory on how it worked and VOILA. Just what I had been looking for.
+It was only during the Project's required 30 min LIVE code session which tasked me with expressing my logic and theories out loud that I came up with a solution.
 
-Current Logic:
+New Logic:
 
 ```
 def start_quiz
@@ -111,10 +115,10 @@ def start_quiz
 ```
 
 # Don't lose your cool
-I learned from seeing others and from self reflecting that panicking was and continues to not be the answered! Every problem, in life, in coding, simply requires research, the right data, and the right attitude. Ever since I began learning to code. My Outlook at problem solving has taken a much more calmer resolve, and I'm proud to say is much more successful too. 
+I learned from seeing others and from self reflecting that panicking was and continues to not be the answer! Every problem, in life, in coding, simply requires research, the right data, and the right attitude. Ever since I began learning to code. My Outlook on problem solving has taken a calmer approach. The results show.
 
 # What's next?
-My project is now working the way I want it to. It accounts for user errors without breaking. It completed the test and returns the output it's meant to. The base is there. CLI projects are meant to be minimal. Sometimes that could imply unattractive visuals. That being said, I'd like to add more visually stimulating returns. The website where I did the scraping has a closet of different fun test. I'd like to refactor the current code so that it could accept different test. Of course this would imply creating a broader menu, a greater variety of selection. A higher level of Abstraction. But if there's one thing I've learned while working on this project, is that EVERY problem has a solution. 
+My project is now working the way I want it to. It accounts for user errors without breaking. It completes the test and returns the output it's meant to. The base is there. CLI projects are meant to be minimal. Sometimes that could imply unattractive visuals. That being said, I'd like to add a more visually stimulating return. The website where I did the scraping has shelves of different fun tests. I'd like to refactor the current code so that it could accept different test other than my own. Of course this would imply creating a broader menu, a greater variety of selection. A higher level of Abstraction. But if there's one thing I've learned while working on this project, is that EVERY problem has a solution. 
 
 
 
