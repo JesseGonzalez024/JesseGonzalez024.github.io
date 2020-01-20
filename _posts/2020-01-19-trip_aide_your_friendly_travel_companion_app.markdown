@@ -16,7 +16,7 @@ Thank you for taking the time to read this post. My name is Jesse Gonzalez and I
 
 This post is in relation to the curriculum's Sinatra project. Despite not fully realizing my intended vision for the program due to time constraints, I had a blast!
 
-![Trip-Aide](https://i.imgur.com/ysCJNDK.jpg)
+![](https://i.imgur.com/ysCJNDK.jpg)
 
 There's something alluring about starting a project a new, where every line of code is fresh. The previous project although fun, lacked visual interaction. But now thanks to the power of the awesome Sinatra frameworks, I could finally see how every line of code was being displayed onto a web browser. So much was learned & appreciated from this particular module in curriculum. For one I now have a much better understanding on how the internet works! I was even surprised to know that some methods behind the functioning of the internet are not as complex as I had previously assumed... for example there's literally cables underwater crossing entire oceans in order to connect servers! Truly fascinating. 
 
