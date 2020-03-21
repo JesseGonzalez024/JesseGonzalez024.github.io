@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Playing Fetch"
-date:       2020-03-21 02:37:30 +0000
+date:       2020-03-20 22:37:31 -0400
 permalink:  playing_fetch
 ---
 
